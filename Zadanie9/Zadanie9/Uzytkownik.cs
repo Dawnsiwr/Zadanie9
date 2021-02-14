@@ -17,8 +17,7 @@ namespace Zadanie9
 
         protected virtual void OnSubskrypcja(object o, EventArgs e)
         {
-                if(Subskrypcja!=null)
-                    Subskrypcja(this, EventArgs.Empty);
+
             Console.WriteLine("Użytkownik: " + Id + " | " + Nazwa + " otrzymał powiadomienie o nowym filmie\n");
         }
 
